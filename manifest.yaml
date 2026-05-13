@@ -1,0 +1,11 @@
+---
+applications:
+- name: customer-pre-post-hook
+  command: node app.js
+  instances: 1
+  memory: 128M
+  buildpack: nodejs_buildpack
+  routes:
+    - route: svc2-external-prepost-handler.cfapps.us21.hana.ondemand.com
+  env:
+    OPTIMIZE_MEMORY: "true"
