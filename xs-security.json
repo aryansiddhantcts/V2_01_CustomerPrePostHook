@@ -1,0 +1,38 @@
+{
+  "xsappname": "svc2-pre-post-hook",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.casehook",
+      "description": "Access to casehook endpoints"
+    },
+    {
+      "name": "$XSAPPNAME.customerhook",
+      "description": "Access to customerhook endpoints"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "casehookrole",
+      "description": "Can call casehook APIs",
+      "scope-references": [
+        "$XSAPPNAME.casehook"
+      ]
+    },
+    {
+      "name": "customerhookrole",
+      "description": "Can call customerhook APIs",
+      "scope-references": [
+        "$XSAPPNAME.customerhook"
+      ]
+    },
+    {
+      "name": "allhookrole",
+      "description": "Can call all APIs",
+      "scope-references": [
+        "$XSAPPNAME.casehook",
+        "$XSAPPNAME.customerhook"
+      ]
+    }
+  ]
+}

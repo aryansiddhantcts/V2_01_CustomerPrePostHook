@@ -1,6 +1,6 @@
 ---
 applications:
-- name: customer-pre-post-hook
+- name: svc2-pre-post-hook
   command: node app.js
   instances: 1
   memory: 128M

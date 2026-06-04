@@ -1,0 +1,63 @@
+{
+  "entity": "sap.ssc.md.individualcustomerservice.entity.individualCustomer",
+  "currentImage": {
+    "isDraftMode": true,
+    "lifeCycleStatus": "ACTIVE",
+    "isProspect": false,
+    "customerRole": "MKK",
+    "gender": "0",
+    "nonVerbalCommunicationLanguage": "en",
+    "blockingReasons": {
+      "isSalesSupportBlocked": false
+    },
+    "adminData": {
+      "createdOn": "2026-05-12T05:32:57.710Z",
+      "createdBy": "bdc0d223-44ac-11f1-aab4-3904269112c8",
+      "updatedOn": "2026-05-12T05:32:57.710Z",
+      "updatedBy": "bdc0d223-44ac-11f1-aab4-3904269112c8"
+    },
+    "id": "019e1aac-90dd-755e-906f-bab38ce40746",
+    "isBusinessPurposeCompleted": false,
+    "extensions": {
+      "IsBpCreated": true
+    },
+    "defaultAddress": {
+      "country": "US",
+      "region": {
+        "country": "US",
+        "region": "TX"
+      },
+      "cityName": "Houston",
+      "isPostOfficeBoxAddress": false,
+      "formattedPostalAddressDescription": "Houston TX / US"
+    },
+    "addresses": [
+      {
+        "isDefaultAddress": true,
+        "country": "US",
+        "region": {
+          "country": "US",
+          "region": "TX"
+        },
+        "cityName": "Houston",
+        "isPostOfficeBoxAddress": false,
+        "formattedPostalAddressDescription": "Houston TX / US",
+        "billToAddressRelevance": "NO",
+        "deliveryAddressRelevance": "NO",
+        "id": "019e1aac-91e8-755e-906f-d2b38ce40746",
+        "parentId": "019e1aac-90dd-755e-906f-bab38ce40746",
+        "addressId": "019e1aac-91e8-755e-906f-dab38ce40746"
+      }
+    ]
+  },
+  "beforeImage": {},
+  "skipValidations": false,
+  "context": {
+    "employeeId": "019ddf17-b13e-7002-979f-b03da1257819",
+    "userId": "bdc0d223-44ac-11f1-aab4-3904269112c8",
+    "skipValidations": false,
+    "isDryRun": false,
+    "language": "en",
+    "operation": "CREATE_DRAFT"
+  }
+}

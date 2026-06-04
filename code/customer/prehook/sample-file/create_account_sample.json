@@ -1,0 +1,35 @@
+{
+  "entity": "sap.ssc.md.accountservice.entity.account",
+  "currentImage": {
+    "isDraftMode": true,
+    "lifeCycleStatus": "ACTIVE",
+    "isProspect": false,
+    "blockingReasons": {
+      "isSalesSupportBlocked": false
+    },
+    "id": "019e1aa0-24f1-7eec-a7f5-35ddadbbc4c3",
+    "isBusinessPurposeCompleted": false,
+    "defaultAddress": {
+      "correspondenceLanguage": "en",
+      "country": "US",
+      "region": {
+        "region": "TX"
+      },
+      "cityName": "Houston"
+    },
+    "customerRole": "MKK",
+    "extensions": {
+      "IsBpCreated": true
+    }
+  },
+  "beforeImage": {},
+  "skipValidations": false,
+  "context": {
+    "employeeId": "019ddf17-b13e-7002-979f-b03da1257819",
+    "userId": "bdc0d223-44ac-11f1-aab4-3904269112c8",
+    "skipValidations": false,
+    "isDryRun": false,
+    "language": "en",
+    "operation": "CREATE_DRAFT"
+  }
+}

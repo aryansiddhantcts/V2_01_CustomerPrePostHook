@@ -1,0 +1,258 @@
+{
+  "entity": "sap.ssc.md.accountservice.entity.account",
+  "currentImage": {
+    "lifeCycleStatus": "ACTIVE",
+    "isProspect": false,
+    "customerRole": "MKK",
+    "formattedName": "ABBIE BAKER AGENCY",
+    "customerABCClassification": "B",
+    "isNaturalPerson": false,
+    "blockingReasons": {
+      "isSalesSupportBlocked": false
+    },
+    "firstLineName": "ABBIE BAKER AGENCY",
+    "industrialSector": "72",
+    "defaultExternalBusinessPartnerId": "3101000784",
+    "defaultExternalBusinessPartnerIdCommunicationSystemDisplayId": "CXBCLNT400",
+    "defaultExternalCustomerId": "3101000784",
+    "defaultExternalCustomerIdCommunicationSystemDisplayId": "CXBCLNT400",
+    "adminData": {
+      "createdOn": "2026-05-06T17:59:07.379Z",
+      "createdBy": "4dcd2a9e-47b5-11f1-b482-17ef325eab7f",
+      "updatedOn": "2026-05-11T09:40:04.547Z",
+      "updatedBy": "bdc0d223-44ac-11f1-aab4-3904269112c8"
+    },
+    "id": "019dfe71-8ad8-700b-8ee1-51f9444d65ac",
+    "displayId": "3101000784",
+    "isBusinessPurposeCompleted": false,
+    "defaultAddress": {
+      "country": "US",
+      "region": {
+        "country": "US",
+        "region": "TX"
+      },
+      "postalCode": "85282",
+      "cityName": "Houston",
+      "streetName": "Cabinet Dr",
+      "houseId": "3329",
+      "isPostOfficeBoxAddress": false,
+      "latitudeMeasure": 29.91139,
+      "longitudeMeasure": -95.56467,
+      "isInternalGeoLocation": true,
+      "correspondenceLanguage": "en",
+      "formattedPostalAddressDescription": "3329 Cabinet Dr / Houston TX 85282 / US"
+    },
+    "defaultCommunication": {
+      "web": "23@mn.com",
+      "phoneFormattedNumber": "1234567890"
+    },
+    "addresses": [
+      {
+        "isDefaultAddress": true,
+        "country": "US",
+        "region": {
+          "country": "US",
+          "region": "TX"
+        },
+        "cityName": "Houston",
+        "streetName": "Cabinet Dr",
+        "houseId": "3329",
+        "postalCode": "85282",
+        "isPostOfficeBoxAddress": false,
+        "formattedPostalAddressDescription": "3329 Cabinet Dr / Houston TX 85282 / US",
+        "latitudeMeasure": 29.91139,
+        "longitudeMeasure": -95.56467,
+        "isInternalGeoLocation": true,
+        "correspondenceLanguage": "en",
+        "web": "23@mn.com",
+        "phoneFormattedNumber": "1234567890",
+        "billToAddressRelevance": "NO",
+        "deliveryAddressRelevance": "NO",
+        "id": "019dfe71-8ad8-700b-8ee1-61f9444d65ac",
+        "parentId": "019dfe71-8ad8-700b-8ee1-51f9444d65ac",
+        "addressId": "019dfe71-8ad8-700b-8ee1-69f9444d65ac",
+        "addressExternalIds": [
+          {
+            "externalId": "42010a10-01f7-1fd0-a1ff-6e879f2b6000",
+            "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+            "communicationSystemDisplayId": "CXBCLNT400",
+            "type": "sap.oitc.948",
+            "id": "019dfe71-8ad9-700b-8ee1-a1f9444d65ac"
+          }
+        ]
+      }
+    ],
+    "identifications": [
+      {
+        "id": "019e1665-4adb-7dde-9cbe-de44a8df868a",
+        "type": "Z003",
+        "identificationId": "SAD",
+        "validFrom": "0001-01-01",
+        "validTo": "9999-12-31"
+      },
+      {
+        "id": "019e1668-35cf-7ddc-8af1-c7f8d8c26c2f",
+        "type": "Z004",
+        "identificationId": "WELCO",
+        "validFrom": "0001-01-01",
+        "validTo": "9999-12-31"
+      }
+    ],
+    "externalIds": [
+      {
+        "externalId": "3101000784",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.888",
+        "id": "019dfe71-8ad9-700b-8ee1-c1f9444d65ac",
+        "isDefault": true
+      },
+      {
+        "externalId": "42010a10-01f7-1fd0-a1ff-6e879f2a4000",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.889",
+        "id": "019dfe71-8ad9-700b-8ee1-c9f9444d65ac",
+        "isDefault": false
+      },
+      {
+        "externalId": "3101000784",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.918",
+        "id": "019dfe71-8ad9-700b-8ee1-d1f9444d65ac",
+        "isDefault": true
+      }
+    ],
+    "extensions": {
+      "IsBpCreated": true
+    }
+  },
+  "beforeImage": {
+    "lifeCycleStatus": "ACTIVE",
+    "isProspect": false,
+    "customerRole": "MKK",
+    "formattedName": "ABBIE BAKER AGENCY",
+    "customerABCClassification": "B",
+    "isNaturalPerson": false,
+    "blockingReasons": {
+      "isSalesSupportBlocked": false
+    },
+    "firstLineName": "ABBIE BAKER AGENCY",
+    "defaultExternalBusinessPartnerId": "3101000784",
+    "defaultExternalBusinessPartnerIdCommunicationSystemDisplayId": "CXBCLNT400",
+    "defaultExternalCustomerId": "3101000784",
+    "defaultExternalCustomerIdCommunicationSystemDisplayId": "CXBCLNT400",
+    "adminData": {
+      "createdOn": "2026-05-06T17:59:07.379Z",
+      "createdBy": "4dcd2a9e-47b5-11f1-b482-17ef325eab7f",
+      "updatedOn": "2026-05-11T09:40:04.547Z",
+      "updatedBy": "bdc0d223-44ac-11f1-aab4-3904269112c8"
+    },
+    "id": "019dfe71-8ad8-700b-8ee1-51f9444d65ac",
+    "displayId": "3101000784",
+    "isBusinessPurposeCompleted": false,
+    "addresses": [
+      {
+        "isDefaultAddress": true,
+        "country": "US",
+        "region": {
+          "country": "US",
+          "region": "TX"
+        },
+        "cityName": "Houston",
+        "streetName": "Cabinet Dr",
+        "houseId": "3329",
+        "postalCode": "85282",
+        "isPostOfficeBoxAddress": false,
+        "formattedPostalAddressDescription": "3329 Cabinet Dr / Houston TX 85282 / US",
+        "isInternalGeoLocation": true,
+        "correspondenceLanguage": "en",
+        "web": "23@mn.com",
+        "billToAddressRelevance": "NO",
+        "deliveryAddressRelevance": "NO",
+        "id": "019dfe71-8ad8-700b-8ee1-61f9444d65ac",
+        "parentId": "019dfe71-8ad8-700b-8ee1-51f9444d65ac",
+        "addressId": "019dfe71-8ad8-700b-8ee1-69f9444d65ac",
+        "addressExternalIds": [
+          {
+            "externalId": "42010a10-01f7-1fd0-a1ff-6e879f2b6000",
+            "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+            "communicationSystemDisplayId": "CXBCLNT400",
+            "type": "sap.oitc.948",
+            "id": "019dfe71-8ad9-700b-8ee1-a1f9444d65ac"
+          }
+        ]
+      }
+    ],
+    "identifications": [
+      {
+        "id": "019e1665-4adb-7dde-9cbe-de44a8df868a",
+        "type": "Z003",
+        "identificationId": "SAD",
+        "validFrom": "0001-01-01",
+        "validTo": "9999-12-31"
+      },
+      {
+        "id": "019e1668-35cf-7ddc-8af1-c7f8d8c26c2f",
+        "type": "Z004",
+        "identificationId": "WELCO",
+        "validFrom": "0001-01-01",
+        "validTo": "9999-12-31"
+      }
+    ],
+    "externalIds": [
+      {
+        "externalId": "3101000784",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.888",
+        "id": "019dfe71-8ad9-700b-8ee1-c1f9444d65ac",
+        "isDefault": true
+      },
+      {
+        "externalId": "42010a10-01f7-1fd0-a1ff-6e879f2a4000",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.889",
+        "id": "019dfe71-8ad9-700b-8ee1-c9f9444d65ac",
+        "isDefault": false
+      },
+      {
+        "externalId": "3101000784",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.918",
+        "id": "019dfe71-8ad9-700b-8ee1-d1f9444d65ac",
+        "isDefault": true
+      }
+    ],
+    "defaultAddress": {
+      "country": "US",
+      "region": {
+        "country": "US",
+        "region": "TX"
+      },
+      "postalCode": "85282",
+      "cityName": "Houston",
+      "streetName": "Cabinet Dr",
+      "houseId": "3329",
+      "isPostOfficeBoxAddress": false,
+      "isInternalGeoLocation": true,
+      "correspondenceLanguage": "en",
+      "formattedPostalAddressDescription": "3329 Cabinet Dr / Houston TX 85282 / US"
+    },
+    "defaultCommunication": {
+      "web": "23@mn.com"
+    }
+  },
+  "skipValidations": false,
+  "context": {
+    "employeeId": "019ddf17-b13e-7002-979f-b03da1257819",
+    "userId": "bdc0d223-44ac-11f1-aab4-3904269112c8",
+    "skipValidations": false,
+    "isDryRun": false,
+    "language": "en",
+    "operation": "UPDATE"
+  }
+}

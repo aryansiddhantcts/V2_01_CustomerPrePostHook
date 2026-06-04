@@ -1,3 +1,26 @@
 _schema-version: "3.2"
-ID: customer-pre-post-hook
+ID: svc2-pre-post-hook
 version: 0.0.1
+
+modules:
+  - name: svc2-pre-post-hook
+    type: nodejs
+    path: .
+    parameters:
+      memory: 128M
+      instances: 1
+      buildpack: nodejs_buildpack
+      routes:
+        - route: svc2-external-prepost-handler.cfapps.us21.hana.ondemand.com
+    properties:
+      OPTIMIZE_MEMORY: "true"
+    requires:
+      - name: preposthook-xsuaa #svc2-xsuaa        # ← binds XSUAA to your app
+
+resources:
+  - name: preposthook-xsuaa #svc2-xsuaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: ./xs-security.json  # ← auto creates using your security config

@@ -1,0 +1,354 @@
+{
+  "entity": "sap.ssc.md.individualcustomerservice.entity.individualCustomer",
+  "currentImage": {
+    "lifeCycleStatus": "ACTIVE",
+    "isProspect": false,
+    "customerRole": "MKK",
+    "formattedName": "ABBIE BUI",
+    "customerABCClassification": "A",
+    "givenName": "ABBIE",
+    "familyName": "BUI",
+    "gender": "0",
+    "nonVerbalCommunicationLanguage": "en",
+    "defaultExternalBusinessPartnerId": "3101000737",
+    "defaultExternalBusinessPartnerIdCommunicationSystemDisplayId": "CXBCLNT400",
+    "defaultExternalCustomerId": "3101000737",
+    "defaultExternalCustomerIdCommunicationSystemDisplayId": "CXBCLNT400",
+    "blockingReasons": {
+      "isSalesSupportBlocked": false
+    },
+    "adminData": {
+      "createdOn": "2026-05-06T17:59:10.555Z",
+      "createdBy": "4dcd2a9e-47b5-11f1-b482-17ef325eab7f",
+      "updatedOn": "2026-05-06T17:59:10.555Z",
+      "updatedBy": "4dcd2a9e-47b5-11f1-b482-17ef325eab7f"
+    },
+    "id": "019dfe71-9692-700b-bab9-79493910deeb",
+    "displayId": "3101000737",
+    "isBusinessPurposeCompleted": false,
+    "defaultAddress": {
+      "country": "US",
+      "region": {
+        "country": "US",
+        "region": "TX"
+      },
+      "postalCode": "77002",
+      "cityName": "Houston",
+      "streetName": "BRAZOS ST",
+      "houseId": "260",
+      "isPostOfficeBoxAddress": false,
+      "formattedPostalAddressDescription": "260 BRAZOS ST / HOUSTON TX 77002 / US"
+    },
+    "defaultCommunication": {
+      "mobileFormattedNumber": "1224312345"
+    },
+    "addresses": [
+      {
+        "isDefaultAddress": false,
+        "country": "US",
+        "region": {
+          "country": "US",
+          "region": "TX"
+        },
+        "cityName": "Houston",
+        "streetName": "Plains Cir",
+        "houseId": "245",
+        "postalCode": "85282",
+        "isPostOfficeBoxAddress": false,
+        "formattedPostalAddressDescription": "245 Plains Cir / Houston TX 85282 / US",
+        "billToAddressRelevance": "NO",
+        "deliveryAddressRelevance": "NO",
+        "id": "019dfe71-9692-700b-bab9-89493910deeb",
+        "parentId": "019dfe71-9692-700b-bab9-79493910deeb",
+        "addressId": "019dfe71-9692-700b-bab9-a1493910deeb",
+        "addressExternalIds": [
+          {
+            "externalId": "42010a10-01f7-1fd0-a0cf-00fcfc5f2000",
+            "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+            "communicationSystemDisplayId": "CXBCLNT400",
+            "type": "sap.oitc.948",
+            "id": "019dfe71-9693-700b-baba-49493910deeb"
+          }
+        ]
+      },
+      {
+        "isDefaultAddress": false,
+        "country": "US",
+        "region": {
+          "country": "US",
+          "region": "TX"
+        },
+        "cityName": "HOUSTON",
+        "streetName": "BRAZOS ST",
+        "houseId": "260",
+        "postalCode": "77002",
+        "isPostOfficeBoxAddress": false,
+        "formattedPostalAddressDescription": "260 BRAZOS ST / HOUSTON TX 77002 / US",
+        "billToAddressRelevance": "NO",
+        "deliveryAddressRelevance": "NO",
+        "id": "019dfe71-9692-700b-bab9-91493910deeb",
+        "parentId": "019dfe71-9692-700b-bab9-79493910deeb",
+        "addressId": "019dfe71-9692-700b-bab9-a9493910deeb",
+        "addressExternalIds": [
+          {
+            "externalId": "42010a10-01f7-1fd0-bb8d-25af60fdc000",
+            "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+            "communicationSystemDisplayId": "CXBCLNT400",
+            "type": "sap.oitc.948",
+            "id": "019dfe71-9693-700b-baba-51493910deeb"
+          }
+        ]
+      },
+      {
+        "isDefaultAddress": true,
+        "country": "US",
+        "region": {
+          "country": "US",
+          "region": "TX"
+        },
+        "cityName": "HOUSTON",
+        "streetName": "BRAZOS ST",
+        "houseId": "260",
+        "postalCode": "77002",
+        "isPostOfficeBoxAddress": false,
+        "formattedPostalAddressDescription": "260 BRAZOS ST / HOUSTON TX 77002 / US",
+        "mobileFormattedNumber": "1224312345",
+        "billToAddressRelevance": "NO",
+        "deliveryAddressRelevance": "NO",
+        "id": "019dfe71-9692-700b-bab9-99493910deeb",
+        "parentId": "019dfe71-9692-700b-bab9-79493910deeb",
+        "addressId": "019dfe71-9692-700b-bab9-b1493910deeb",
+        "addressExternalIds": [
+          {
+            "externalId": "42010a10-01f7-1fd0-bb8d-261a10d46000",
+            "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+            "communicationSystemDisplayId": "CXBCLNT400",
+            "type": "sap.oitc.948",
+            "id": "019dfe71-9693-700b-baba-59493910deeb"
+          }
+        ]
+      }
+    ],
+    "externalIds": [
+      {
+        "externalId": "3101000737",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.888",
+        "id": "019dfe71-9693-700b-baba-79493910deeb",
+        "isDefault": true
+      },
+      {
+        "externalId": "42010a10-01f7-1fd0-a0cf-00fcfc5de000",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.889",
+        "id": "019dfe71-9693-700b-baba-81493910deeb",
+        "isDefault": false
+      },
+      {
+        "externalId": "3101000737",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.918",
+        "id": "019dfe71-9693-700b-baba-89493910deeb",
+        "isDefault": true
+      }
+    ],
+    "identifications": [
+      {
+        "id": "019dfe71-9693-700b-baba-69493910deeb",
+        "type": "Z002",
+        "identificationId": "64748393T3Z",
+        "validFrom": "0001-01-01",
+        "validTo": "9999-12-31"
+      },
+      {
+        "id": "019dfe71-9693-700b-baba-71493910deeb",
+        "type": "Z005",
+        "identificationId": "45666666",
+        "validFrom": "0001-01-01",
+        "validTo": "9999-12-31"
+      }
+    ],
+    "extensions": {
+      "IsBpCreated": true
+    }
+  },
+  "beforeImage": {
+    "lifeCycleStatus": "ACTIVE",
+    "isProspect": false,
+    "customerRole": "MKK",
+    "formattedName": "ABBIE BUI",
+    "givenName": "ABBIE",
+    "familyName": "BUI",
+    "gender": "0",
+    "nonVerbalCommunicationLanguage": "en",
+    "defaultExternalBusinessPartnerId": "3101000737",
+    "defaultExternalBusinessPartnerIdCommunicationSystemDisplayId": "CXBCLNT400",
+    "defaultExternalCustomerId": "3101000737",
+    "defaultExternalCustomerIdCommunicationSystemDisplayId": "CXBCLNT400",
+    "blockingReasons": {
+      "isSalesSupportBlocked": false
+    },
+    "adminData": {
+      "createdOn": "2026-05-06T17:59:10.555Z",
+      "createdBy": "4dcd2a9e-47b5-11f1-b482-17ef325eab7f",
+      "updatedOn": "2026-05-06T17:59:10.555Z",
+      "updatedBy": "4dcd2a9e-47b5-11f1-b482-17ef325eab7f"
+    },
+    "id": "019dfe71-9692-700b-bab9-79493910deeb",
+    "displayId": "3101000737",
+    "isBusinessPurposeCompleted": false,
+    "addresses": [
+      {
+        "isDefaultAddress": false,
+        "country": "US",
+        "region": {
+          "country": "US",
+          "region": "TX"
+        },
+        "cityName": "Houston",
+        "streetName": "Plains Cir",
+        "houseId": "245",
+        "postalCode": "85282",
+        "isPostOfficeBoxAddress": false,
+        "formattedPostalAddressDescription": "245 Plains Cir / Houston TX 85282 / US",
+        "billToAddressRelevance": "NO",
+        "deliveryAddressRelevance": "NO",
+        "id": "019dfe71-9692-700b-bab9-89493910deeb",
+        "parentId": "019dfe71-9692-700b-bab9-79493910deeb",
+        "addressId": "019dfe71-9692-700b-bab9-a1493910deeb",
+        "addressExternalIds": [
+          {
+            "externalId": "42010a10-01f7-1fd0-a0cf-00fcfc5f2000",
+            "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+            "communicationSystemDisplayId": "CXBCLNT400",
+            "type": "sap.oitc.948",
+            "id": "019dfe71-9693-700b-baba-49493910deeb"
+          }
+        ]
+      },
+      {
+        "isDefaultAddress": false,
+        "country": "US",
+        "region": {
+          "country": "US",
+          "region": "TX"
+        },
+        "cityName": "HOUSTON",
+        "streetName": "BRAZOS ST",
+        "houseId": "260",
+        "postalCode": "77002",
+        "isPostOfficeBoxAddress": false,
+        "formattedPostalAddressDescription": "260 BRAZOS ST / HOUSTON TX 77002 / US",
+        "billToAddressRelevance": "NO",
+        "deliveryAddressRelevance": "NO",
+        "id": "019dfe71-9692-700b-bab9-91493910deeb",
+        "parentId": "019dfe71-9692-700b-bab9-79493910deeb",
+        "addressId": "019dfe71-9692-700b-bab9-a9493910deeb",
+        "addressExternalIds": [
+          {
+            "externalId": "42010a10-01f7-1fd0-bb8d-25af60fdc000",
+            "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+            "communicationSystemDisplayId": "CXBCLNT400",
+            "type": "sap.oitc.948",
+            "id": "019dfe71-9693-700b-baba-51493910deeb"
+          }
+        ]
+      },
+      {
+        "isDefaultAddress": true,
+        "country": "US",
+        "region": {
+          "country": "US",
+          "region": "TX"
+        },
+        "cityName": "HOUSTON",
+        "streetName": "BRAZOS ST",
+        "houseId": "260",
+        "postalCode": "77002",
+        "isPostOfficeBoxAddress": false,
+        "formattedPostalAddressDescription": "260 BRAZOS ST / HOUSTON TX 77002 / US",
+        "billToAddressRelevance": "NO",
+        "deliveryAddressRelevance": "NO",
+        "id": "019dfe71-9692-700b-bab9-99493910deeb",
+        "parentId": "019dfe71-9692-700b-bab9-79493910deeb",
+        "addressId": "019dfe71-9692-700b-bab9-b1493910deeb",
+        "addressExternalIds": [
+          {
+            "externalId": "42010a10-01f7-1fd0-bb8d-261a10d46000",
+            "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+            "communicationSystemDisplayId": "CXBCLNT400",
+            "type": "sap.oitc.948",
+            "id": "019dfe71-9693-700b-baba-59493910deeb"
+          }
+        ]
+      }
+    ],
+    "externalIds": [
+      {
+        "externalId": "3101000737",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.888",
+        "id": "019dfe71-9693-700b-baba-79493910deeb",
+        "isDefault": true
+      },
+      {
+        "externalId": "42010a10-01f7-1fd0-a0cf-00fcfc5de000",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.889",
+        "id": "019dfe71-9693-700b-baba-81493910deeb",
+        "isDefault": false
+      },
+      {
+        "externalId": "3101000737",
+        "communicationSystemId": "6765496d-b9da-44ca-9d42-bbb2a5f9f2c0",
+        "communicationSystemDisplayId": "CXBCLNT400",
+        "type": "sap.oitc.918",
+        "id": "019dfe71-9693-700b-baba-89493910deeb",
+        "isDefault": true
+      }
+    ],
+    "identifications": [
+      {
+        "id": "019dfe71-9693-700b-baba-69493910deeb",
+        "type": "Z002",
+        "identificationId": "64748393T3Z",
+        "validFrom": "0001-01-01",
+        "validTo": "9999-12-31"
+      },
+      {
+        "id": "019dfe71-9693-700b-baba-71493910deeb",
+        "type": "Z005",
+        "identificationId": "45666666",
+        "validFrom": "0001-01-01",
+        "validTo": "9999-12-31"
+      }
+    ],
+    "defaultAddress": {
+      "country": "US",
+      "region": {
+        "country": "US",
+        "region": "TX"
+      },
+      "postalCode": "77002",
+      "cityName": "HOUSTON",
+      "streetName": "BRAZOS ST",
+      "houseId": "260",
+      "isPostOfficeBoxAddress": false,
+      "formattedPostalAddressDescription": "260 BRAZOS ST / HOUSTON TX 77002 / US"
+    }
+  },
+  "skipValidations": false,
+  "context": {
+    "employeeId": "019ddf17-b13e-7002-979f-b03da1257819",
+    "userId": "bdc0d223-44ac-11f1-aab4-3904269112c8",
+    "skipValidations": false,
+    "isDryRun": false,
+    "language": "en",
+    "operation": "UPDATE"
+  }
+}
