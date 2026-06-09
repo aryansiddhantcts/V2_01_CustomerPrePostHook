@@ -1,0 +1,9 @@
+1.  Add Destination Service to Your Project
+    mta.yaml - add your destination name as resource and define it
+    no need to give same destination name as BTP
+
+2. Install SAP Cloud SDK
+hnpm install @sap-cloud-sdk/http-client   //  Makes HTTP call to S/4
+npm install @sap-cloud-sdk/connectivity   //Resolves destination details used internally
+
+3

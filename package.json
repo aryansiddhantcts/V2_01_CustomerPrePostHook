@@ -5,13 +5,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "rcf" : "rm -rf gen mta_archives && mbt build && cf deploy mta_archives/svc2-pre-post-hook_0.0.1.mtar"
+    "rcf": "rm -rf gen mta_archives && mbt build && cf deploy mta_archives/svc2-pre-post-hook_0.0.1.mtar"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@sap-cloud-sdk/connectivity": "^4.7.0",
+    "@sap-cloud-sdk/http-client": "^4.7.0",
     "@sap/xsenv": "^6.2.1",
     "@sap/xssec": "^4.13.0",
     "express": "^5.2.1",

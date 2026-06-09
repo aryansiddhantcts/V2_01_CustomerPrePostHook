@@ -16,11 +16,17 @@ modules:
       OPTIMIZE_MEMORY: "true"
     requires:
       - name: preposthook-xsuaa #svc2-xsuaa        # ← binds XSUAA to your app
+      - name: cxb400-destination #s4-destination # ← add this
 
 resources:
   - name: preposthook-xsuaa #svc2-xsuaa
-    type: org.cloudfoundry.managed-service
+    type: org.cloudfoundry.existing-service # ← use existing, don't recreate instead org.cloudfoundry.managed-service
     parameters:
       service: xsuaa
       service-plan: application
-      path: ./xs-security.json  # ← auto creates using your security config
+      path: ./xs-security.json # ← auto creates using your security config
+  - name: cxb400-destination #s4-destination # ← add this
+    type: org.cloudfoundry.existing-service #org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      #service-plan: lite
